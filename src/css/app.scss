@@ -1,0 +1,29 @@
+// settings; font-faces, colors, variables, etc..
+@import "01-settings/colors";
+@import "01-settings/fonts";
+
+// tools; mixins, placeholder-selectors
+@import "02-tools/breakpoints";
+@import "02-tools/fonts";
+
+// generics; resets, normalize
+@import "03-generic/resets";
+
+// elements; base html elements styling `without a class`
+@import "04-elements/headings";
+
+// objects; box layouts, grids
+@import "05-objects/objects";
+
+// components;
+@import "06-components/c-hero";
+@import "06-components/c-shopping";
+
+// utilities; helper classes
+@import "07-utilities/utilities";
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  color: $pure-black;
+}

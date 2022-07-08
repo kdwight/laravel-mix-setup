@@ -1,0 +1,1 @@
+console.log("hello laravel-mix v6.0");

@@ -1,0 +1,62 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 39.81px;
+  line-height: 110%;
+
+  @include breakpoint-md {
+    font-size: 58px;
+  }
+}
+
+h2 {
+  font-size: 33.18px;
+  line-height: 110%;
+
+  @include breakpoint-md {
+    font-size: 46px;
+  }
+}
+
+h3 {
+  font-size: 27.65px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+
+  @include breakpoint-md {
+    font-size: 38px;
+  }
+}
+
+h4 {
+  font-size: 23.04px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+
+  @include breakpoint-md {
+    font-size: 30px;
+  }
+}
+
+h5 {
+  font-size: 19.2px;
+  line-height: 130%;
+
+  @include breakpoint-md {
+    font-size: 24px;
+  }
+}
+
+h6 {
+  @include breakpoint-md {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+  }
+}

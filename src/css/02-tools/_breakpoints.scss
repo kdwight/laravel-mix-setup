@@ -1,0 +1,47 @@
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xl2: 1400px;
+
+@mixin breakpoint-sm {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin breakpoint-md {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin breakpoint-lg {
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin breakpoint-xl {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin breakpoint-xl2 {
+  @media (min-width: $xl2) {
+    @content;
+  }
+}
+
+@mixin breakpoint-tablet-portrait {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-tablet-landscape {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
